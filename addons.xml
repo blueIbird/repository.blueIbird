@@ -112,4 +112,24 @@
     </assets> 
   </extension>
 </addon>
+
+<addon id="repository.blueIbird" name="blueIbird Repository" version="1.0.0" provider-name="blueIbird">
+    <extension point="xbmc.addon.repository" name="blueIbird Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/blueIbird/repository.blueIbird/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/blueIbird/repository.blueIbird/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/blueIbird/repository.blueIbird/master</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary></summary>
+        <description>[B]https://github.com/blueIbird/repository.blueIbird[/B]</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
 </addons>

@@ -269,45 +269,6 @@
 	</extension>
 </addon>
 	
-<addon id="plugin.audio.bob.matrix" name="Radio Bob (Matrix)" version="1.0.0" provider-name="blueIbird">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.requests" version="2.4.3"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>audio</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-       <description>[B]Radio Bob addon for Kodi Mediacenter[/B]</description>
-       <disclaimer>Addon only for Kodi 19 Matrix</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-	
-<addon id="plugin.audio.bob.leia" name="Radio Bob (Leia)" version="1.1.0" provider-name="blueIbird">
-    <requires>
-        <import addon="xbmc.python" version="2.26.0" />
-        <import addon="script.module.requests" version="2.4.3"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>audio</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <description>[B]Radio Bob addon for Kodi Mediacenter[/B]</description>
-        <disclaimer>Addon only for Kodi 18 Leia</disclaimer>
-        <news>[B]•Update json url[/B]<news>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="script.kcleaner" name="KCleaner" provider-name="Dalibor Lanik" version="3.31"> 
   <requires>
     <import addon="xbmc.python" version="2.1.0" /> 

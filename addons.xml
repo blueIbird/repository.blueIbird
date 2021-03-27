@@ -301,4 +301,24 @@
     </assets>
   </extension>
 </addon>
+
+<addon id="plugin.audio.bob" name="RADIO BOB!" version="1.0" provider-name="blueIbird">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0" />
+        <import addon="script.module.requests" version="2.4.3"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description>[B]Unofficial Radio Bob addon for Kodi[/B]</description>
+        <disclaimer></disclaimer>
+        <news>2021/03/27-v1.0-first release</news>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
 </addons>

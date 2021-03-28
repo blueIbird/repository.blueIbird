@@ -1,3 +1,3 @@
-<p>2021/03/26</p>
+<p>28/03/2021</p>
 </hr>
-<p>•Add plugin.audio.bob-1.0.0</p>
+<p>•Updae plugin.audio.bob to v1.0.2</p>

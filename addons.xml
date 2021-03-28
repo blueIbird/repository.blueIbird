@@ -301,7 +301,8 @@
     </assets>
   </extension>
 </addon>
-	<addon id="plugin.audio.bob" name="RADIO BOB!" version="1.0.1" provider-name="blueIbird">
+
+<addon id="plugin.audio.bob" name="RADIO BOB!" version="1.0.2" provider-name="blueIbird">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.requests" version="2.4.3"/>
@@ -312,6 +313,13 @@
     <extension point="xbmc.addon.metadata">
         <description>Für echte Rock-Liebhaber ist RADIO BOB! ein Muss. Snow Patrol, Metallica, Bruce Springsteen sind nur einige der Rockstars, die mit ihren großartigen Hits das Programm dieses Senders füllen. Aber nicht nur legendäre Künstler, sondern auch die Interpreten der aktuellen Stunden gehören zum Repertoire von RADIO BOB!</description>
         <disclaimer>This version is not compatible with Kodi 19</disclaimer>
+        <news>v1.0.2 - 20210328
+-Add news in addon.xml
+-Change icon.png and fanart.jpg from /resources to main folder
+-Change json url
+-Delete /resources folder
+
+https://www.radiobob.de/</news>
         <platform>all</platform>
         <assets>
             <icon>resources/icon.png</icon>

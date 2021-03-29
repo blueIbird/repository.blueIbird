@@ -269,39 +269,6 @@
 	</extension>
 </addon>
 	
-<addon id="script.kcleaner" name="KCleaner" provider-name="Dalibor Lanik" version="3.31"> 
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" /> 
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource">
-        <provides>executable</provides>
-  </extension>
-  <extension library="service.py" point="xbmc.service" start="startup"> 
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata"> 
-    <platform>all</platform>
-    <website>http://projects.lanik.org/KodiProject_KCleaner.htm</website>
-    <summary lang="en_GB">Clean up temporary files in Kodi.</summary>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.kodi.tv/showthread.php?tid=307919</forum>
-    <email>dalibor@lanik.org</email>
-    <description lang="en_GB">Clean up temporary files in Kodi.</description>
-    <news>v3.4 [CR]
-- Small fix [CR]
-</news>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-        <screenshot>resources/screenshot-01.jpg</screenshot>
-        <screenshot>resources/screenshot-02.jpg</screenshot>
-        <screenshot>resources/screenshot-03.jpg</screenshot>
-        <banner>resources/banner.jpg</banner>
-        <logo>resources/logo.png</logo>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="plugin.audio.bob" name="RADIO BOB!" version="1.0.3" provider-name="blueIbird">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
@@ -347,5 +314,33 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
+</addon>
+	
+<addon id="plugin.video.kuchentv"
+	name="KuchenTV Browser"
+	version="1.0.0"
+	provider-name="blueIbird">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="6.8.10"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="streams.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description>Browser für Videos und Reactions von KuchenTV
+YouTube: https://www.youtube.com/user/KuchenTV
+Twitch: https://www.twitch.tv/kuchentv
+</description>
+    <platform>all</platform>
+    <source></source>
+    <website>https://www.youtube.com/user/KuchenTV</website>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart></fanart>
+        <screenshot></screenshot>      
+    </assets>
+  </extension>
 </addon>
 </addons>

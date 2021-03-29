@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.bob.matrix" name="RADIO BOB!" version="1.0.0+matrix" provider-name="blueIbird">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.4.3"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+       <disclaimer>Addon only for Kodi 19 Matrix</disclaimer>
+       <description>Für echte Rock-Liebhaber ist RADIO BOB! ein Muss. Snow Patrol, Metallica, Bruce Springsteen sind nur einige der Rockstars, die mit ihren großartigen Hits das Programm dieses Senders füllen. Aber nicht nur legendäre Künstler, sondern auch die Interpreten der aktuellen Stunden gehören zum Repertoire von RADIO BOB!</description>
+       <news>v1.0.0 - 20210328
+-first release for Kodi 19 Matrix
+
+[COLOR red]HINWEIS: Werbespots vor den Streams werden von radiobob.de geschaltet, nicht von den Addon Entwicklern[/COLOR]
+       </news>
+
+       <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

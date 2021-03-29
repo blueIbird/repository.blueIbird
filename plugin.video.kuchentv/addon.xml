@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.kuchentv"
 	name="KuchenTV Browser"
-	version="1.0.2"
+	version="1.0.3"
 	provider-name="blueIbird">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
@@ -12,9 +12,10 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <description>Browser für Videos und Reactions von KuchenTV
+    <description>Browser für Videos von KuchenTV
 YouTube: https://www.youtube.com/user/KuchenTV
 Twitch: https://www.twitch.tv/kuchentv
+[COLOR red]Für die nutzung wird eine persönliche YouTube API benötigt, der im YouTube Addon eingetragen werden muss. Anleitung auf https://www.kodi-tipps.de/youtube-api-schluessel-einrichten/[/COLOR]
 </description>
     <platform>all</platform>
     <source></source>

@@ -1,6 +1,3 @@
-<p>30/03/2021</p>
+<p>02/04/2021</p>
 </hr>
-<p>•Add plugin.video.kuchentv-1.0.3</p>
-<p>•Add plugin.audio.bob.matrix-1.0.0+matrix</p>
-<p>•Remove script.kcleaner</p>
-
+<p>•Update plugin.video.kuchentv to v1.0.5</p>

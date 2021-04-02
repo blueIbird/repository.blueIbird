@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.kuchentv"
 	name="KuchenTV Browser"
-	version="1.0.5"
+	version="1.0.6"
 	provider-name="blueIbird">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
@@ -15,6 +15,13 @@
     <description>Browser für Videos von KuchenTV
 [COLOR red]Für die nutzung wird eine persönliche YouTube API benötigt, die im YouTube Addon eingetragen werden muss. Anleitung auf https://www.kodi-tipps.de/youtube-api-schluessel-einrichten/[/COLOR]
 </description>
+<news>
+03/04/2021 - 1.0.6
+-------------------
+-Fixed iKuchen playlists in playlists.py
+-Add Channel "KuchenTV streaming"
+-Add Channel "KuchenTV STREAM HIGHLIGHTS"
+</news>
     <platform>all</platform>
     <source></source>
     <website>https://www.youtube.com/user/KuchenTV</website>

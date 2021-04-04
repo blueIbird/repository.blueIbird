@@ -1,3 +1,3 @@
-<p>03/04/2021</p>
+<p>04/04/2021</p>
 </hr>
-<p>•Delete repository.lastship</p>
+<p>•Add plugin.video.powerpyx-1.0.0</p>
